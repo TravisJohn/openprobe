@@ -1,0 +1,29 @@
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+
+# Candidate information and local uploads
+candidate-data/
+recordings/
+transcripts/
+uploads/
+
+# Dependencies and generated output
+node_modules/
+.next/
+dist/
+build/
+.venv/
+__pycache__/
+*.pyc
+*.log
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
